@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div class="window">
+            <div class="card">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red box"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow box"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green box"></span>
+                  </div>
+                </div>
+                <div class="card__content">
+                    <div class="title">Etch-a-Sketch</div>
+                    <div class="canvas" id="canvas"></div>
+                    <div class="canvas-control">
+                        <button class="button type1" id="clear-canvas">
+                            <span class="btn-txt">Clear Canvas</span>
+                          </button>
+                        <div></div>
+                        <button class="button type1">
+                            <span class="btn-txt">Color Picker</span>
+                          </button>
+                          <div id="range">
+                            <label for="slider-size">Choose Size: <span id="size-label" >16 x 16</span></label>
+                            <input type="range" id="slider-size" min="16" max="60" value="16" step="2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
+</body>
+</html>
