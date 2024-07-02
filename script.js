@@ -56,6 +56,7 @@ window.addEventListener("mouseup", () => {
     drawing = false;
 });
 
+//clear canvas button
 clearBtn.addEventListener("click", () => {
     appendSquares(gridSize);
  });
